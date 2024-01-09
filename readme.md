@@ -10,21 +10,23 @@ Robin Müller
 2. Ich habe mir im letzten Modul vorgenommen meine APs genauer und zeitgerecht erstellen. Diesen kann ich umsetzen indem ich mir genug Zeit nehme beim Schreiben der APs.
 3. Ich programmiere ein Schere, Stein, Papier Spiel.
 
-## 9.1.2024
+## 09.1.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich mir zuerst überlegt welche Projekte ich umsetzen könnte. Ich hatte als erstes die Idee eines Vokabeltrainers. Allerdings habe ich mich dagegen entschieden, da ich Lust hatte ein Spiel zu Programmiern. Da ich keine Ideen hatte habe ich ChatGPT gefragt. Dieses hat mir 20 Ideen ausgegeben. Ich habe mich nun für Schere, Stein, Papier entschieden. Danach habe ich einen PAP gemacht und die Idee mit Herrn Colic besprochen. (70 Wörter)
 
-## 16.1 und 23.1.2024
+## 16.1.2024
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+- [ ] Der Benutzer kann über 3 Buttons (Schere, Stein, Papier) eine Eingabe machen.
+- [ ] Das Programm generiert für den Gegner eine zufällige Zahl zwischen 1 - 3 (1 = Schere, 2 = Stein, 3 = Papier).
+- [ ] Das Programm kontrolliert wer gewonnen hat (mehrere Fälle können zusammengenommen werden). Der Gewinner erhält einen Punkt.
+- [ ] Die Punkte werden in einer Datei gespeichert (Beachte: 1. Stelle, Name: 2. Stelle Punkte)
 
-| estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
-| -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1              |                      |                |                |          |
-| ...            |                      |                |                |          |
-| 4              |                      |                |                |          |
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+| 1   | Programm startet | Benutzer wählt Schere, Stein oder Papier | -   |     |
+| 2   | Benutzer gibt Eingabe | -   | Gegner wählt Schere, Stein oder Papier |     |
+| 3   | Benutzer: Stein Gegner: Schere | -   | Benutzer gewinnt |     |
+| 4   | 1. Runde gespielt | -   | Datei in %appdata% |     |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
 
@@ -32,16 +34,16 @@ Robin Müller
 
 ## 23.1.2024
 
-- [ ] Fünftes AP
-- [ ] ...
-
-- [ ] Achtes AP
+- [ ] Punkteansicht in anderem Fenster
+- [ ] Benutzer in anderem Fenster
+- [ ] Highscore Liste in anderem Fenster
+- [ ] Programm mit alle Fenster beendet sich richtig
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
-| --------------- | -------------------- | -------------- | -------------- | -------- |
-| 5               |                      |                |                |          |
-| ...             |                      |                |                |          |
-| 8               |                      |                |                |          |
+| --- | --- | --- | --- | --- |
+| 5   |     |     |     |     |
+| ... |     |     |     |     |
+| 8   |     |     |     |     |
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
 
