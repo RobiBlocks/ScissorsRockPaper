@@ -19,14 +19,13 @@ Robin Müller
 - [ ] Der Benutzer kann über 3 Buttons (Schere, Stein, Papier) eine Eingabe machen.
 - [ ] Das Programm generiert für den Gegner eine zufällige Zahl zwischen 1 - 3 (1 = Schere, 2 = Stein, 3 = Papier).
 - [ ] Das Programm kontrolliert wer gewonnen hat (mehrere Fälle können zusammengenommen werden). Der Gewinner erhält einen Punkt.
-- [ ] Die Punkte werden in einer Datei gespeichert (Beachte: 1. Stelle, Name: 2. Stelle Punkte)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   | Programm startet | Benutzer wählt Schere, Stein oder Papier | -   |     |
-| 2   | Benutzer gibt Eingabe | -   | Gegner wählt Schere, Stein oder Papier |     |
-| 3   | Benutzer: Stein Gegner: Schere | -   | Benutzer gewinnt |     |
-| 4   | 1. Runde gespielt | -   | Datei in %appdata% |     |
+| 1   | Programm gestartet | Benutzer drückt `Stein` | `Der Spieler hat Stein gewählt` |     |
+| 2   | Testfall 1 | Gegner wählt `Schere` | `Der Gegner hat Schere gewählt` |     |
+| 3   | Testfall 2 | Benutzer: Stein Gegner: Schere | `Benutzer gewinnt` |     |
+| 4   |     |     |     |     |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
 
@@ -34,16 +33,17 @@ Robin Müller
 
 ## 23.1.2024
 
-- [ ] Punkteansicht in anderem Fenster
-- [ ] Benutzer in anderem Fenster
-- [ ] Highscore Liste in anderem Fenster
-- [ ] Programm mit alle Fenster beendet sich richtig
+- [ ] Der Benutzer wird nach dem Namen gefragt und kann danach starten.
+- [ ] Unter dem Eingabefeld des Benutzers gibt es eine Bestenliste.
+- [ ] Der Gewinner erhält einen Punkt und diese werden in einer Datei gespeichert (Beachte: Name 1. Stelle, Punkte 2. Stelle)
+- [ ] Das Programm und alle Fenster werden per `Beenden`-Button beendet.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 5   |     |     |     |     |
-| ... |     |     |     |     |
-| 8   |     |     |     |     |
+| 5   | Programm gestartet | `Robin` | `Hallo Robin`, 1. Runde startet |     |
+| 6   | Testfall 5, eine Runde wurde gespielt | -   | `Robin ----- 1` |     |
+| 7   | 1. Runde gespielt | -   | Datei in %appdata% wurde erstellt |     |
+| 8   | Programm gestartet | `Beenden` drücken | alles schliesst, Datei bleibt bestehen |     |
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
 
