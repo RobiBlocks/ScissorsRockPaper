@@ -1,14 +1,14 @@
 # Lern-Periode 3
 
-Max Muster
+Robin Müller
 
 9.1.2024 bis 30.1.2024 (☃️ Sportferien)
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-2. Was hatten Sie sich am Ende von LP2 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
-3. Was wäre ein geeignetes Projekt würd diese LP3?
+1. Ich bin mit meinen Noten zufrieden. Am stärksten war ich im Modul 319 (6) und am schlechtesten in Modul 162 (5). Am wichtigsten ist Modul 319.
+2. Ich habe mir im letzten Modul vorgenommen meine APs genauer und zeitgerecht erstellen. Diesen kann ich umsetzen indem ich mir genug Zeit nehme beim Schreiben der APs.
+3. Ich könnte einen Vokabeltrainer machen. Mit
 
 ## 9.1.2024
 
