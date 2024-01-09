@@ -8,7 +8,7 @@ Robin Müller
 
 1. Ich bin mit meinen Noten zufrieden. Am stärksten war ich im Modul 319 (6) und am schlechtesten in Modul 162 (5). Am wichtigsten ist Modul 319.
 2. Ich habe mir im letzten Modul vorgenommen meine APs genauer und zeitgerecht erstellen. Diesen kann ich umsetzen indem ich mir genug Zeit nehme beim Schreiben der APs.
-3. Ich könnte einen Vokabeltrainer machen. Mit
+3. Ich programmiere ein Schere, Stein, Papier Spiel.
 
 ## 9.1.2024
 
