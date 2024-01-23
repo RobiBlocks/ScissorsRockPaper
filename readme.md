@@ -35,19 +35,19 @@ Robin Müller
 
 ## 23.1.2024
 
-- [ ] Der Benutzer wird nach dem Namen gefragt und kann danach starten.
+- [x] Der Benutzer wird nach dem Namen gefragt und kann danach starten.
 - [ ] Unter dem Eingabefeld des Benutzers gibt es eine Bestenliste. Der Gewinner erhält nun auch einen Punkt.
-- [ ] Der Gewinner erhält einen Punkt und diese werden in einer Datei gespeichert (Beachte: Name 1. Stelle, Punkte 2. Stelle)
-- [ ] Das Programm und alle Fenster werden per `Beenden`-Button beendet.
+- [x] Der Gewinner erhält einen Punkt und diese werden in einer Datei gespeichert (Beachte: Name 1. Stelle, Punkte 2. Stelle)
+- [x] Das Programm und alle Fenster werden per `Beenden`-Button beendet.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 6   | Programm gestartet | `Robin` | `Hallo Robin`, 1. Runde startet |     |
-| 7   | Testfall 5, eine Runde wurde gespielt | -   | `Robin ----- 1` |     |
-| 8   | 1. Runde gespielt | -   | Datei in %appdata% wurde erstellt |     |
-| 9   | Programm gestartet | `Beenden` drücken | alles schliesst, Datei bleibt bestehen |     |
+| 6   | Programm gestartet | `Robin` | `Hallo Robin`, 1. Runde startet | ja  |
+| 7   | Testfall 6, eine Runde wurde gewonnen | -   | `Robin ----- 1` |     |
+| 8   | Testfall 6, eine Runde wurde gewonnen | -   | Datei in %appdata% wurde erstellt Inhalt: `Robin,1` | ja  |
+| 9   | Programm gestartet | `Beenden` drücken | alles schliesst, Datei bleibt bestehen | ja  |
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Heute am 23.1 habe ich mich als allererstes über das transferieren von Variabeln zwischen zwei Forms informiert. Nach mehrmaligem ausprobieren und scheitern habe ich mich dazu entschieden, die Variabeln in einer Datei zu sichern. Der Vorteil der Datei war, dass ich nicht nur die Variabeln des Namens in beiden Forms verwenden konnte, sondern auch gleich den Grundstein gelegt habe, um die Highscores zu sichern. Allerdings hatte ich keine Zeit mehr die Rangliste im Startmenü zu erstellen und anzuzeigen Am Schluss ist mir aufgefallen, dass ich AP8 schon das letzte Mal beendet habe. (92 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
