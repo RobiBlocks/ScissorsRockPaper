@@ -24,8 +24,8 @@ namespace ScherSteinPapier
         {
             EingabeButtonsVerschwinden();
             labelBenutzerWahl.Visible = true;
-            labelBenutzerWahl.Text = "Du hast Schere gew‰hlt!";
-            GegnerW‰hlt();
+            labelBenutzerWahl.Text = "Du hast Schere gew√§hlt!";
+            GegnerW√§hlt();
             benutzerWahl = 1;
             GewinnVergleich();
             buttonBeenden.Visible = true;
@@ -36,9 +36,9 @@ namespace ScherSteinPapier
         {
             EingabeButtonsVerschwinden();
             labelBenutzerWahl.Visible = true;
-            labelBenutzerWahl.Text = "Du hast Stein gew‰hlt!";
+            labelBenutzerWahl.Text = "Du hast Stein gew√§hlt!";
             benutzerWahl = 2;
-            GegnerW‰hlt();
+            GegnerW√§hlt();
             GewinnVergleich();
             buttonBeenden.Visible = true;
             buttonWeiter.Visible = true;
@@ -48,9 +48,9 @@ namespace ScherSteinPapier
         {
             EingabeButtonsVerschwinden();
             labelBenutzerWahl.Visible = true;
-            labelBenutzerWahl.Text = "Du hast Papier gew‰hlt!";
+            labelBenutzerWahl.Text = "Du hast Papier gew√§hlt!";
             benutzerWahl = 3;
-            GegnerW‰hlt();
+            GegnerW√§hlt();
             GewinnVergleich();
             buttonBeenden.Visible = true;
             buttonWeiter.Visible = true;
@@ -63,7 +63,7 @@ namespace ScherSteinPapier
             buttonPapier.Visible = false;
         }
 
-        void GegnerW‰hlt()
+        void GegnerW√§hlt()
         {
             Random rnd = new Random();
             gegnerWahl = rnd.Next(1, 4); //1 = Schere, 2 = Stein, 3 = Papier
@@ -71,15 +71,15 @@ namespace ScherSteinPapier
 
             if (gegnerWahl == 1)
             {
-                labelGegnerWahl.Text = "Der Gegner hat Schere gew‰hlt!";
+                labelGegnerWahl.Text = "Der Gegner hat Schere gew√§hlt!";
             }
             if (gegnerWahl == 2)
             {
-                labelGegnerWahl.Text = "Der Gegner hat Stein gew‰hlt!";
+                labelGegnerWahl.Text = "Der Gegner hat Stein gew√§hlt!";
             }
             if (gegnerWahl == 3)
             {
-                labelGegnerWahl.Text = "Der Gegner hat Papier gew‰hlt!";
+                labelGegnerWahl.Text = "Der Gegner hat Papier gew√§hlt!";
             }
         }
 
