@@ -1,5 +1,7 @@
 # Lern-Periode 3
+
 ## description
+
 When you want to use my Scissors, Rock, Paper game you have to download the newest version folder. In every version folder you will find the ScherSteinPapier.sln with wich you can start the programm in your IDE.
 If you start the Programm you can write your name in the textbox. Then Press "Weiter" and a new window will pop up. There you can choose Scissors, Rock or Paper. After you choose your tool your opponent will choose his tool. In the end the programm will announce the winner.
 Now you can play another round or you can go back to the titlescreen where you can see the highscores.
@@ -56,10 +58,18 @@ Robin Müller
 
 ## 30.1.2024
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Seit dem letzten Mal habe ich programmiert, dass es im Titelbildschirm eine kleine Highscore-Liste zu sehen gibt. (17 Wörter)
+
+✍️ Heute am 30.1 habe ich meinen Code überarbeitet. Dabei musste ich viele Variablenname und Funktionsname von Deutsch auf Englisch übersetzen. Ausserdem habe ich diese Namen auch noch so angepasst, sodass die Variablennamen aus Nomen und die Funktionsnamen aus Verben bestehen. Danach habe ich meinen GitHub Account anschaulicher gestaltet und ein Repository als Higlight markiert. (54 Wörter)
 
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
 
-Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchtige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
+✍️ Ich habe mir als erstes überlegt was für ein Projekt ich erstellen möchte. Zuerst wollte ich einen Vokabeltrainer erstellen, dennoch wurde es ein Schere, Stein, Papier, weil ich wieder einmal ein Spiel programmieren wollte. Am zweiten Tag habe ich den Grundstein gelegt: eine schöne Startseite erstellt. Mit Buttons, welche einerseits das Programm schliessen und andererseits ein neues Forms öffnen können. Nun konnte man schon ein Werkzeug wählen, der Gegner konnte eines wählen und der Gewinner konnte ermittelt werden. Am dritten Tag habe ich die wichtigsten Variablen (Name und Highscore) in einer Datei gespeichert. Wenn man ins zweite Form kommt wird der Name und die Runde oben links angezeigt. Bis zum letzten Tag habe ich noch die Anzeige der Highscores einprogrammiert. Zum Abschluss habe ich den Code nochmals überarbeitet. Vorallem die Variablen- und Funktionsnamen. Das Krönchen war das bearbeiten der GitHub-Seite. (140 Wörter)
+
+Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
+
+✍️ Mir persönlich hat die 4-wöchige LP3 zuhause besser gefallen, weil man sich an die APs halten musste und nur kleine neue Ideen gleich einbauen konnte. Für meine zukünftige Planung bedeutet das, dass ich die grossen neuen Ideen zuerst aufschreibe, die Ideen überdenke und diese erst beim nächsten Mal bearbeite.
+
+**Verbesserungsvorschlag (VBV):** Ich werde meine WinForms Ansichten zuerst auf Papier skizzieren, damit ich mir ein Bild machen kann wie alles aussehen soll. Zudem werde ich mir Ideen, welche mir beim Programmieren kommen, zuerst notieren, zuhause mir ein paar Gedanken dazu machen und diese erst beim nächsten Mal in den Code einbauen
