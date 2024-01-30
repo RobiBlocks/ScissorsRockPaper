@@ -1,7 +1,8 @@
 # Lern-Periode 3
-
-When you want to use my Scissors, Rock, Paper game you have to download the newest Versions Folder. In every Versions folder you will find the ScherSteinPapier.sln with wich you can start the programm in your IDE.
-If you start the Programm you can write your name int the textbox. Then Press "Weiter" and a new window will pop up.
+## description
+When you want to use my Scissors, Rock, Paper game you have to download the newest Version Folder. In every Version folder you will find the ScherSteinPapier.sln with wich you can start the programm in your IDE.
+If you start the Programm you can write your name in the textbox. Then Press "Weiter" and a new window will pop up. There you can choose Scissors, Rock or Paper. After you choose your tool your opponent will choose his tool. In the end the programm will announce the winner.
+Now you can play another round or you can go back to the titlescreen where you can see the highscores.
 
 Robin Müller
 9.1.2024 bis 30.1.2024 (☃️ Sportferien)
