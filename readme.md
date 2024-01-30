@@ -1,7 +1,9 @@
 # Lern-Periode 3
 
-Robin Müller
+When you want to use my Scissors, Rock, Paper game you have to download the newest Versions Folder. In every Versions folder you will find the ScherSteinPapier.sln with wich you can start the programm in your IDE.
+If you start the Programm you can write your name int the textbox. Then Press "Weiter" and a new window will pop up.
 
+Robin Müller
 9.1.2024 bis 30.1.2024 (☃️ Sportferien)
 
 ## Grob-Planung
